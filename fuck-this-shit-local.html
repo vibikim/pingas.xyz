@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<style>
+  /* Style the video: 100% width and height to cover the entire window */
+  #vid {
+      margin: auto;
+      position: fixed;
+      min-width: 80%;
+      min-height: 80%;
+      text-align: center;
+  }
+</style>
+
+<html>
+<body>
+	<!--TODO reasonably fit the video on most of the screen if possible-->
+    <div id="vid">
+         <video width="512">
+                <source src="Fuck This Shit I'm Out.webm" type="video/webm">
+         </video>
+         <button id="myBtn" onclick="playPause()">Pause</button>
+    </div>
+</html>
+
+<script>
+  var video = document.getElementById("vid");
+
+  function playPause() {
+      if (video.paused)
+          video.play();
+      else
+          video.pause();
+  }

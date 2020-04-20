@@ -1,0 +1,97 @@
+.title {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#home {
+	margin-right: auto;
+	margin-left: 0px;
+}
+body {
+    background-image: url('index/pingaman.png');
+    background-size: cover;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+}
+
+/*
+                 (__)
+                 (oo)
+           /------\/
+          / |    ||
+         *  /\---/\
+            ~~   ~~
+..."Bring BLINK back!"...
+*/
+blink {
+    -webkit-animation: 1s linear infinite condemned_blink_effect; // for android
+    animation: 1s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect { // for android
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+a{
+	color:azure;
+}
+pre {
+	background: azure;
+	color:black;
+}
+b{
+	color: azure;
+}
+i{
+	color: blue;
+}
+.content{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align:center;
+}
+.side{
+    width: 100px;
+    margin: 20px;
+    display: inline-table;
+}
+#left{
+}
+#right{
+}
+.middle{
+    display: inline-table;
+    width: 600px;
+    /*background: rgba(0,0,0,0.5); */
+    background-image: url('index/bpattern.JPG');
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: 5px 5px rgba(0,0,0,0.7);
+}
+.button{
+    background: blue;
+    float: left;
+    margin: 5px;
+    padding: 3px;
+}
+

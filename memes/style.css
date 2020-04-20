@@ -1,0 +1,22 @@
+body {
+	background-image: url('bg.bmp');
+	font-family: Comic Sans Ms;
+}
+.btitle {
+	margin-top: 40px;
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
+	background-color: azure;
+}
+.title {
+	margin-top: 40px;
+	padding-left: auto;
+	padding-right: auto;
+	text-align: center;
+}
+#home {
+	margin-right: auto;
+	margin-left: 0px;
+}
+
