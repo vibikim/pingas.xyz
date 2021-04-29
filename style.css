@@ -25,10 +25,10 @@ body {
 ..."Bring BLINK back!"...
 */
 blink {
-    -webkit-animation: 1s linear infinite condemned_blink_effect; // for android
+    -webkit-animation: 1s linear infinite condemned_blink_effect; /* for android */
     animation: 1s linear infinite condemned_blink_effect;
 }
-@-webkit-keyframes condemned_blink_effect { // for android
+@-webkit-keyframes condemned_blink_effect { /* for android */
     0% {
         visibility: hidden;
     }
